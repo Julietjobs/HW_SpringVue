@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import backpage.entity.EmpState;
 import backpage.entity.Employer;
 import backpage.entity.LeftVacation;
-import backpage.vo.QueryEmpInfoResp;
-import backpage.vo.QueryEmpStateResp;
+import backpage.entity.vo.QueryEmpInfoResp;
+import backpage.entity.vo.QueryEmpStateResp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

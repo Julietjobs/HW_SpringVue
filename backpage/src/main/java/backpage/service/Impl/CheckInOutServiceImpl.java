@@ -11,7 +11,7 @@ import backpage.entity.LeftVacation;
 import backpage.mapper.CheckRecordMapper;
 import backpage.mapper.EmployerMapper;
 import backpage.service.CheckInOutService;
-import backpage.vo.QueryCheckRecordResp;
+import backpage.entity.vo.QueryCheckRecordResp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package backpage.service;
 
 import backpage.entity.Employer;
-import backpage.vo.QueryEmpInfoResp;
-import backpage.vo.QueryEmpStateResp;
+import backpage.entity.vo.QueryEmpInfoResp;
+import backpage.entity.vo.QueryEmpStateResp;
 
 import java.util.List;
 

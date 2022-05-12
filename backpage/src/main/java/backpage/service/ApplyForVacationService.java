@@ -1,7 +1,7 @@
 package backpage.service;
 
-import backpage.vo.QueryApplyInfoResp;
-import backpage.vo.QueryApplyRecordResp;
+import backpage.entity.vo.QueryApplyInfoResp;
+import backpage.entity.vo.QueryApplyRecordResp;
 
 import java.util.Date;
 import java.util.List;

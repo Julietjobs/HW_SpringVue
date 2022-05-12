@@ -2,7 +2,7 @@ package backpage.service.Impl;
 
 import backpage.mapper.ApplyRecordMapper;
 import backpage.mapper.LeftVacationMapper;
-import backpage.vo.QueryApplyInfoResp;
+import backpage.entity.vo.QueryApplyInfoResp;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import backpage.entity.Apply;
@@ -12,7 +12,7 @@ import backpage.entity.LeftVacation;
 import backpage.mapper.ApplyMapper;
 import backpage.mapper.EmployerMapper;
 import backpage.service.ApplyForVacationService;
-import backpage.vo.QueryApplyRecordResp;
+import backpage.entity.vo.QueryApplyRecordResp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -120,12 +120,6 @@ public class ApplyForVacationServiceImpl implements ApplyForVacationService {
         apply.setState(1);
         apply.setEmpId(empId);
         applyMapper.insert(apply);
-        /*ApplyRecord applyRecord = new ApplyRecord();
-        applyRecord.setEmpId(empId);
-        applyRecord.setState(1);
-        applyRecord.setType(type);
-        applyRecord.setTotalTime(duringTime);
-        applyRecordMapper.insert(applyRecord);*/
         return true;
     }
 

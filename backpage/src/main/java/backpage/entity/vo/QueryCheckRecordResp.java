@@ -1,4 +1,4 @@
-package backpage.vo;
+package backpage.entity.vo;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
 package backpage.service;
 
 import backpage.entity.LeftVacation;
-import backpage.vo.QueryCheckRecordResp;
+import backpage.entity.vo.QueryCheckRecordResp;
 
 import java.util.List;
 

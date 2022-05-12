@@ -1,8 +1,6 @@
-package backpage.vo;
+package backpage.entity.vo;
 
 import lombok.Data;
-
-import java.util.Date;
 
 @Data
 public class QueryApplyRecordResp {
